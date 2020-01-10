@@ -1,3 +1,28 @@
-language: python: 2.7
+language: python
+python:
+  - '2.7'
+jobs:
+  include:
+  - name: "2.7 Black-B"
+    python: "2.7"
+    env: TEST_SUITE=suite_3_5_unit
+  - name: "2.7 Black-B"
+    python: "2.7"
+    env: TEST_SUITE=suite_3_5_integration
+  - name: "pypy Unit Tests"
+    python: "pypy"
+    env: TEST_SUITE=suite_pypy_unit
+script: ./Black-B.py $TEST_SUITE
 os: linux
-python: 2.7
+git:
+   depth: false
+   quiet: true
+   submodules: false
+   lfs_skip_smudge: true
+   sparse_checkout: skip-worktree-map-file
+   autocrlf: input
+before_install:
+- brew install git-lfs
+
+before_script:
+- git lfs pull
