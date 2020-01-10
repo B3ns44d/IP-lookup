@@ -15,7 +15,15 @@ This Tools is a collection of online IP Tools that can be used to quickly get in
  - INSTALL & UPDATE
   - Exit
 
+### Installation
 
+  Download this tool, follow the instructions below
+
+  ```sh
+  $ git clone https://github.com/bensaad2/Black-B.git
+  $ cd Black-B
+  $ python Black-B.py
+  ```
 # Whois lookup
 
   Determine the registered owner of a domain or IP address block with the whois tool.
@@ -49,14 +57,5 @@ Discover web hosts sharing an IP address with a reverse IP lookup.
 
 To install the tools directly in the system and get new update directly using terminal
 
-### Installation
-
-Download this tool, follow the instructions below
-
-```sh
-$ git clone https://github.com/bensaad2/Black-B.git
-$ cd Black-B
-$ python Black-B.py
-```
 
 ### Thanks
