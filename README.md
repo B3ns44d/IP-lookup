@@ -1,7 +1,6 @@
 # Black-B Tool
 
 
-[![Build Status](https://travis-ci.com/bensaad2/Black-B.svg?token=jG7JbqZaJbd6skxneVzt&branch=master)](https://travis-ci.com/bensaad2/Black-B)
 
 This Tools is a collection of online IP Tools that can be used to quickly get information about IP Address's, Web Pages and DNS records.
 # Menu
