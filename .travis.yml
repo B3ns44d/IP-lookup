@@ -1,2 +1,2 @@
-language: python
+language: python: 2.7
 os: linux
